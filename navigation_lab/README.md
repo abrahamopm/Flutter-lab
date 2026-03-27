@@ -2,9 +2,13 @@
 
 A Flutter app demonstrating bottom navigation with three tabs (Home, Favorites, Profile) and stack-based navigation to a Details screen.
 
-| App Screenshot | Widget Tree |
-|:-:|:-:|
-| ![App Screenshot](screenshots/screenshot.png) | ![Widget Tree](screenshots/widget_tree.png) |
+## App Screenshot
+
+![App Screenshot](screenshots/screenshot.png)
+
+## Widget Tree
+
+![Widget Tree](screenshots/widget_tree.png)
 
 ## Description
 
