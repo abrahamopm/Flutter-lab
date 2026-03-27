@@ -2,13 +2,9 @@
 
 A Flutter user registration form with validation for name, email, password, and confirm password fields.
 
-## Screenshot
-
-![App Screenshot](screenshots/screenshot.png)
-
-## Widget Tree
-
-![Widget Tree](screenshots/widget_tree.png)
+| App Screenshot | Widget Tree |
+|:-:|:-:|
+| ![App Screenshot](screenshots/screenshot.png) | ![Widget Tree](screenshots/widget_tree.png) |
 
 ## Description
 

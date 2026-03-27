@@ -2,13 +2,9 @@
 
 A Flutter app displaying a user profile card with a circular avatar, name, role, and contact icon buttons.
 
-## Screenshot
-
-![App Screenshot](screenshots/screenshot.png)
-
-## Widget Tree
-
-![Widget Tree](screenshots/widget_tree.png)
+| App Screenshot | Widget Tree |
+|:-:|:-:|
+| ![App Screenshot](screenshots/screenshot.png) | ![Widget Tree](screenshots/widget_tree.png) |
 
 ## Description
 

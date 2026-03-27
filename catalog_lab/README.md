@@ -2,13 +2,9 @@
 
 A Flutter app showing a scrollable 2-column grid of products, each with an image, name, price, and description.
 
-## Screenshot
-
-![App Screenshot](screenshots/screenshot.png)
-
-## Widget Tree
-
-![Widget Tree](screenshots/widget_tree.png)
+| App Screenshot | Widget Tree |
+|:-:|:-:|
+| ![App Screenshot](screenshots/screenshot.png) | ![Widget Tree](screenshots/widget_tree.png) |
 
 ## Description
 
