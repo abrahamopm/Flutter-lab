@@ -1,17 +1,21 @@
-# catalog_lab
+# Product Catalog
 
-A new Flutter project.
+A Flutter app showing a scrollable 2-column grid of products, each with an image, name, price, and description.
 
-## Getting Started
+## Screenshot
 
-This project is a starting point for a Flutter application.
+![App Screenshot](screenshots/screenshot.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Widget Tree
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+![Widget Tree](screenshots/widget_tree.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Description
+
+This lab demonstrates Flutter list and grid widgets:
+- `GridView.builder` with `SliverGridDelegateWithFixedCrossAxisCount` for a 2-column product grid
+- `Card` with rounded corners and elevation for each product tile
+- `Image.network` with `errorBuilder` and `loadingBuilder` callbacks
+- `ClipRRect` for rounded image corners
+- `Column` and `Text` widgets for product details
+- `StatefulWidget` holding a list of `Product` data objects

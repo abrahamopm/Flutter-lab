@@ -1,17 +1,21 @@
-# profile_card
+# Profile Card
 
-A new Flutter project.
+A Flutter app displaying a user profile card with a circular avatar, name, role, and contact icon buttons.
 
-## Getting Started
+## Screenshot
 
-This project is a starting point for a Flutter application.
+![App Screenshot](screenshots/screenshot.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Widget Tree
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+![Widget Tree](screenshots/widget_tree.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Description
+
+This lab demonstrates basic Flutter layout widgets:
+- `MaterialApp` and `Scaffold` for app structure
+- `Card` with `RoundedRectangleBorder` for a styled card container
+- `CircleAvatar` with an `AssetImage` for the profile picture
+- `Column` to stack widgets vertically
+- `Row` with `IconButton` widgets for social/contact icons
+- `Text` with custom `TextStyle` for name and role display

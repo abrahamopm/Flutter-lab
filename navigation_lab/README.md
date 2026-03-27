@@ -1,17 +1,20 @@
-# navigation_lab
+# Navigation Lab
 
-A new Flutter project.
+A Flutter app demonstrating bottom navigation with three tabs (Home, Favorites, Profile) and stack-based navigation to a Details screen.
 
-## Getting Started
+## Screenshot
 
-This project is a starting point for a Flutter application.
+![App Screenshot](screenshots/screenshot.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Widget Tree
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+![Widget Tree](screenshots/widget_tree.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Description
+
+This lab demonstrates Flutter navigation patterns:
+- `BottomNavigationBar` with three `BottomNavigationBarItem` entries
+- `StatefulWidget` (`MainScreen`) managing the selected tab index
+- Stack-based navigation using `Navigator.push` / `Navigator.pop` with `MaterialPageRoute`
+- Three tab screens: `HomeScreen`, `FavoritesScreen`, `ProfilesScreen`
+- `DetailsScreen` navigated to from the Home tab

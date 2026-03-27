@@ -1,17 +1,21 @@
-# registration_lab
+# Registration Lab
 
-A new Flutter project.
+A Flutter user registration form with validation for name, email, password, and confirm password fields.
 
-## Getting Started
+## Screenshot
 
-This project is a starting point for a Flutter application.
+![App Screenshot](screenshots/screenshot.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Widget Tree
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+![Widget Tree](screenshots/widget_tree.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Description
+
+This lab demonstrates Flutter form widgets and validation:
+- `Form` with a `GlobalKey<FormState>` for form-level validation
+- `TextFormField` with `InputDecoration` using `OutlineInputBorder`
+- `TextEditingController` for each field with proper `dispose()`
+- `validator` callbacks for required fields, email format, password length, and password match
+- `ElevatedButton` triggering `_submitForm()` which shows an `AlertDialog` on success
+- `SingleChildScrollView` wrapping the form to handle keyboard overflow
