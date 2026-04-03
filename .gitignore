@@ -1,0 +1,47 @@
+# Global ignores for this multi-project Flutter workspace
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# Flutter / Dart generated
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub/
+**/.pub-cache/
+**/build/
+**/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android build outputs
+**/android/.gradle/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS/macOS generated user data
+**/ios/Flutter/Flutter.podspec
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/Runner.xcodeproj/xcuserdata/
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/Runner.xcworkspace/xcuserdata/
+**/macos/Runner.xcodeproj/xcuserdata/
+
+# Windows/Linux generated
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Symbol / obfuscation artifacts
+**/app.*.symbols
+**/app.*.map.json

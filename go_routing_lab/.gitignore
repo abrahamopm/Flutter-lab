@@ -1,0 +1,23 @@
+# Shared ignores for all go_router demo projects
+
+# IDE
+.idea/
+*.iml
+
+# Flutter / Dart generated
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub/
+**/.pub-cache/
+**/build/
+**/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Platform generated
+**/android/.gradle/
+**/ios/Pods/
+**/ios/.symlinks/
+**/macos/Pods/
+**/macos/.symlinks/
