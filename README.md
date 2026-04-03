@@ -56,3 +56,39 @@
 
 ### Widget Tree
 ![Widget Tree](registration_lab/screenshots/widget%20tree.png)
+
+---
+
+## Go Routing Labs
+
+### Go Routing Demo 01
+
+#### Screenshots
+<p align="center">
+  <img src="go_routing_lab/go_routing_demo01/screenshots/home_screen.png" width="45%" />
+  <img src="go_routing_lab/go_routing_demo01/screenshots/Detail_screen.png" width="45%" />
+</p>
+
+#### Widget Tree
+![Widget Tree](go_routing_lab/go_routing_demo01/screenshots/Widhet_tree.png)
+
+### Go Routing Demo 02
+
+#### Screenshots
+<p align="center">
+  <img src="go_routing_lab/go_routing_demo02/screenshots/home_page.png" width="45%" />
+  <img src="go_routing_lab/go_routing_demo02/screenshots/products_page.png" width="45%" />
+</p>
+
+#### Widget Tree
+![Widget Tree](go_routing_lab/go_routing_demo02/screenshots/widget_tree.png)
+
+### Go Routing Demo 03
+
+#### Screenshots
+<p align="center">
+  <img src="go_routing_lab/go_routing_demo03/screenshots/home_page.png" width="45%" />
+</p>
+
+#### Widget Tree
+![Widget Tree](go_routing_lab/go_routing_demo03/screenshots/widget_tree.png)
