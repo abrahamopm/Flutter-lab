@@ -88,6 +88,7 @@
 #### Screenshots
 <p align="center">
   <img src="go_routing_lab/go_routing_demo03/screenshots/home_page.png" width="45%" />
+  <img src="go_routing_lab/go_routing_demo03/screenshots/details_page.png" width="45%" />
 </p>
 
 #### Widget Tree
