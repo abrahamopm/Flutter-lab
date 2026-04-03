@@ -1,4 +1,4 @@
-# Lab Assignments
+#Flutter Lab Assignments
 
 | Name                  | ID            | Section      |
 |-----------------------|---------------|---------------------|
